@@ -1,0 +1,34 @@
+1. Crear un formulario de postulación para el trabajo de apoyo ambiental para Chiloé.
+
+2. Los campos del formulario son: rut, apellido paterno, apellido materno, nombre, fecha de nacimiento, edad, 
+género, email, celular, profesión, motivación para postular al trabajo.
+
+3. Realizar las siguientes validaciones a los campos del formulario:
+
+a. Rut: largo entre 9 y 10 caracteres.
+
+b. Nombre: largo entre 3 y 20 caracteres.
+
+c. Apellido paterno: largo entre 3 y 20 caracteres.
+
+d. Apellido materno: largo entre 3 y 20 caracteres.
+
+e. Edad: entre 18 y 35 años.
+
+f. Género: que sea seleccionado un género de la lista.
+
+g. Celular: largo entre 9 y 12.
+
+4. Todos los campos son requeridos. 
+
+5. Debe utilizar los siguientes componentes: Text, number, date, select, textarea.
+
+6. Debe haber un botón submit “Enviar”.
+
+7. Debe haber un botón submit “Crear Carta”.  Este botón llama a una función que genera una carta de presentación e intención para postular al trabajo.  Usted debe concatenar los datos ingresados en el formularios y generar un texto correspondiente a su carta, el que será asignado al campo textarea con el id=”carta”.
+
+8. Las funciones de JavaScript las debe crear en un archivo externo.
+
+9. Los formatos de CSS los debe crear en un archivo externo.
+
+10. Crear la estructura del proyecto en GitHub, todos los integrantes deben descargar el proyecto y trabajar cada uno en forma separada en el formulario, JavaScript y CSS. Cada uno debe actualizar el repositorio para complementar el proyecto y probar su funcionamiento. 
