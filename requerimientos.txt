@@ -25,7 +25,10 @@ g. Celular: largo entre 9 y 12.
 
 6. Debe haber un botón submit “Enviar”.
 
-7. Debe haber un botón submit “Crear Carta”.  Este botón llama a una función que genera una carta de presentación e intención para postular al trabajo.  Usted debe concatenar los datos ingresados en el formularios y generar un texto correspondiente a su carta, el que será asignado al campo textarea con el id=”carta”.
+7. Debe haber un botón submit “Crear Carta”.  Este botón llama a una función que genera una carta de 
+presentación e intención para postular al trabajo.  Usted debe concatenar los datos ingresados en 
+el formularios y generar un texto correspondiente a su carta, el que será asignado al campo textarea con 
+el id=”carta”.
 
 8. Las funciones de JavaScript las debe crear en un archivo externo.
 

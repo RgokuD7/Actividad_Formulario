@@ -40,6 +40,9 @@ form{
   justify-items: center;
   padding: 5px;
 }
+button{
+  margin: 5px;
+}
 form label,
 form input,
 form select{

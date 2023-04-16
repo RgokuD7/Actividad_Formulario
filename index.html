@@ -74,8 +74,8 @@
                 <div>
                     <label for="edad"> Edad: </label>
                 </div>
-                <div>
-                    <input type="number" id="edad">
+                <div >
+                    <input type="number" id="edad" disabled>
                 </div>
                 <div class="err" id="edadError"><br><br>
 
@@ -89,10 +89,9 @@
                 </div>
                 <div>
                     <select id="genero">
-                        <option value="0">...</option>
-                        <option value="1">Femenino</option>
-                        <option value="2">Masculino</option>
-                        <option value="3">Otro</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Otro">Otro</option>
                     </select>
                 </div>
                 <div class="err" id="generoError"><br><br>
@@ -145,8 +144,18 @@
                 </div>
             </div>
         </div>
+        <div class="sec-form">
+            <div class="sec">
+                <button id="btn">
+                    Crear Carta
+                </button>
+                <div>
+                    <textarea cols="70" id="carta" rows="13"></textarea>
+                </div>
+            </div>
+        </div>
         <div class="btn-enviar">
-            <input type="submit" value='Enviar'>
+            <input type="submit" value='Enviar' id="btn">
         </div>
 
     </form>
